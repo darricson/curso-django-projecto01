@@ -8,6 +8,7 @@ def home(request):
         }
     return render(request, 'recipes/pages/home.html', context)
 
+
 def recipe(request, id):
     context = {
         'see': 'teste deu certo'
